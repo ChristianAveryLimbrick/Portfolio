@@ -55,6 +55,9 @@
       integrity="sha384-JjSmVgyd0p3s+h7tu2PWpFp1tKxA9w+5l5N5k05Ks74Y93z4j4F8f45tJ9e5y5w"
       crossorigin="anonymous"
     ></script>
+
+    
+
   </head>
 
   <body>
@@ -164,8 +167,8 @@
             <h3 class="mb">Commission <br>Calculator </h3>
 
             <p>
-              My most recent experience was at Loop Insurance early stage
-              startup. We lacked severyal tools that a sales team would have at
+              My most recent experience was at Loop Insurance, an early stage
+              startup. We lacked several tools that a sales team would have at
               a larger company. This led me to build this
               <a
                 href="https://loop-money-tracker-github-io.vercel.app/"
@@ -174,8 +177,7 @@
                 >Commission Calculator</a
               >
 
-              which filled a critical gap for the team. It was used by all
-              agents, and pinned to the top of each teams slack channel as well.
+              which filled a critical gap for the team. It was used team wide, and pinned to the top of our main Slack channel as well.
             </p>
           </div>
           <div class="col-md-3">
@@ -191,7 +193,7 @@
               </a>
               built using JavaScript lets users set a monthly budget and
               automatally updates as they input daily expenses. I built this app
-              to help track expenses while traveling
+              to help track expenses while traveling. 
             </p>
           </div>
           <div class="col-md-3">
@@ -247,63 +249,42 @@
 
     <!-- Contact Section -->
 
-    <section id="contact" class="py-5">
-      <div class="container text-center">
-        <div class="message">
-          <h2>Feel free to send me a message!</h2>
-        </div>
 
-        <form action="/submit-form-endpoint" method="POST">
-          <div class="mb-3">
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              name="name"
-              placeholder="Your Name"
-            />
-          </div>
-          <div class="mb-3">
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              name="email"
-              placeholder="Your Email"
-            />
-          </div>
-          <div class="mb-3">
-            <textarea
-              class="form-control"
-              id="message"
-              name="message"
-              rows="3"
-              placeholder="Your Message"
-            ></textarea>
-          </div>
-          <button type="submit" class="btn" id="button">Send Message</button>
-        </form>
+<section id="contact-info" class="py-5">
+  <div class="container text-center">
+    <h2>Contact Information</h2>
+
+    <div class="card mt-4" style="width: 18rem; margin: 0 auto;">
+      <div class="card-body">
+        <h5 class="card-title">Christian Limbrick</h5>
+        <a href="CL.FrontEnd.Resume.pdf" class="resume-link me-3" target="_blank"> Resume</a>
+        <a href="https://github.com/ChristianAveryLimbrick" class="github-link" target="_blank"
+          >GitHub</a
+        >
       </div>
-    </section>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item contact-email"><a href = "mailto: avelimb@gmail.com">Avelimb@gmail.com</a></li>
+        <li class="list-group-item">409-739-8804</li>
+      </ul>
+     
+    </div>
+  </div>
+</section>
+
 
     <!-- Footer -->
 
     <footer class="text-white py-5">
       <div class="container text-center">
         <p>Christian Limbrick &copy; 2021</p>
-        <div class="deets">
-          <h6>409-739-8804</h6>
-          <a href="mailto:christian.code.limbrick@gmail.com"
-            ><h6 class = 'email'>avelimb@gmail.com</h6></a
-          >
-        </div>
+     
       </div>
     </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="/code.js"></script>
   </body>
 </html>
