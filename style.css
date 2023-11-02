@@ -39,10 +39,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.4); /* Black overlay with 40% opacity */
+  backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+
+
 
   padding: 20px;
   width: 100%;
@@ -70,7 +74,7 @@ body {
 
 #about img {
   max-width: 100%;
-  border-radius: 50%;
+  max-height: 100%;
   display: block;
   margin: 0 auto;
   margin-top: 30px;
@@ -131,6 +135,7 @@ body {
   font-weight: 500;
   display: inline-block;
   box-sizing: border-box;
+  width: calc(33.33% - 20px);
 }
 
 .custom-badge {
