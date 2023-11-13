@@ -275,7 +275,7 @@ footer p {
   font-size: 1.25rem; /* 20px */
   padding: 0.375rem 0.75rem;
   color: #fff;
-  background-color: #8489BD; /* Bootstrap primary color */
+  background-color: #d7263d; /* Bootstrap primary color */
   border-radius: 0.25rem;
   text-decoration: none;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -283,16 +283,16 @@ footer p {
 
 .resume-link:hover,
 .github-link:hover {
-  background-color: #d7263d; /* Slightly darker blue for hover effect */
+  background-color: black; /* Slightly darker blue for hover effect */
   color: #ffe; /* Slightly lighter text color for better contrast */
 }
 
 .github-link {
-  background-color: #8489BD;
+  background-color: #d7263d;
 }
 
 .github-link:hover {
-  background-color: #d7263d; /* Black for hover effect */
+  background-color: black; /* Black for hover effect */
   color: #fff; /* White text color */
 }
 
@@ -301,7 +301,7 @@ footer p {
 }
 
 #button:hover {
-  background-color: #d7263d;
+  background-color: black;
 }
 
 .project-link {
@@ -311,7 +311,7 @@ footer p {
 }
 
 .project-link:hover {
-  color: #d7263d;
+  color: black;
   font-weight: bold;
 }
 
